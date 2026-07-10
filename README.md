@@ -1,16 +1,14 @@
 # EHR Diagnosis Standardization & ICU Performance Dashboard
 
+*Built during my AI Data Quality Analyst Trainee role at Rooman Technologies (Feb–Jun 2025) — NASSCOM Certified, Grade A, NSQF Level 5.*
+
 An end-to-end data pipeline that cleans free-text clinical diagnoses from ICU records, maps them to ICD-10 codes using NLP and fuzzy matching, performs SQL-based analytics, and visualises outcomes in a Power BI dashboard.
 
 ---
 
 ## Dashboard Preview
 
-
-
 ![EHR Diagnosis Standardization & ICU Performance Dashboard](ICU_Dashboard.png)
-
-
 
 ---
 
@@ -38,6 +36,7 @@ An end-to-end data pipeline that cleans free-text clinical diagnoses from ICU re
 ehr-diagnosis-standardization/
 ├── EHR_Project.ipynb         # Full Python pipeline (NLP → ICD-10 mapping → EDA)
 ├── ehr_nlp_queries.sql       # MySQL schema + 6 analytical queries
+├── EHR_Dashboard.pbix        # Interactive Power BI dashboard
 ├── ICU_Dashboard.png         # Power BI dashboard screenshot
 └── README.md
 ```
@@ -106,3 +105,10 @@ jupyter notebook EHR_Project.ipynb
 SOURCE ehr_nlp_queries.sql;
 ```
 > Update the `LOAD DATA LOCAL INFILE` path to point to your local `cleaned_ehr_data.csv`.
+
+### Power BI Dashboard
+Open `EHR_Dashboard.pbix` in Power BI Desktop.
+
+---
+
+*Part of my Data Analyst portfolio — [LinkedIn](https://linkedin.com/in/ankita-halabanur) · [GitHub](https://github.com/ankita-halabanur)*
