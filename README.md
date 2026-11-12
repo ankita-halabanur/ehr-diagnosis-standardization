@@ -1,6 +1,6 @@
 # EHR Diagnosis Standardization & ICU Performance Dashboard
 
-*Built during my AI Data Quality Analyst Trainee role at Rooman Technologies (Feb–Jun 2025) — NASSCOM Certified, Grade A, NSQF Level 5.*
+*Built during my Data Quality Analyst Intern role at Rooman Technologies (Feb–Jun 2025) — NASSCOM Certified, Grade A, NSQF Level 5.*
 
 An end-to-end data pipeline that cleans free-text clinical diagnoses from ICU records, maps them to ICD-10 codes using NLP and fuzzy matching, performs SQL-based analytics, and visualises outcomes in a Power BI dashboard.
 
